@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-site",
+  "version": "0.1.0",
+  "description": "Notion VuePress Site",
+  "main": "index.js",
+  "repository": "https://github.com/notion-cli/vuepress-site",
+  "author": "Dave Herman <david.herman@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  },
+  "toolchain": {
+    "node": "10.3.0",
+    "npm": "6.1.0",
+    "yarn": "1.12.3"
+  }
+}
