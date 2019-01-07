@@ -20,7 +20,6 @@
 }
 
 .home .hero h1 {
-    width: 12em;
     padding: 0.5em 0;
     border-radius: 4px;
 }
@@ -28,6 +27,34 @@
 .home .hero h1 {
     background-position: top center;
     background-image: url('/rosesky.jpg');
-    background-size: 10em;
     background-repeat: no-repeat;
 }
+
+.home .hero h1 {
+    width: 10em;
+    background-size: 10em;
+}
+
+// narrow desktop / iPad
+@media (max-width: $MQNarrow)
+  .home
+    .hero
+      h1
+        width: 8em
+        background-size: 8em
+
+// wide mobile
+@media (max-width: $MQMobile)
+  .home
+    .hero
+      h1
+        width: 6em
+        background-size: 6em
+
+// narrow mobile
+@media (max-width: $MQMobileNarrow)
+  .home
+    .hero
+      h1
+        width: 6em
+        background-size: 6em
